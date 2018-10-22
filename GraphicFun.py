@@ -7,19 +7,19 @@ def main():
     print("Welcome to Drew's graphical fun house")
     print("The available methods are:\n1: extendo_circ()\n2: circle_mover()\n3: circle_circ()\n4: line_drawer\n5: fractal_boi()\n6: circ_frac()\n7: circ_spi()")
     num = int(input("Which would you like?"))
-    if num = 1:
+    if num == 1:
         extendo_circ()
-    elif num = 2:
+    elif num == 2:
         circle_mover()
-    elif num = 3:
+    elif num == 3:
         circle_circ()
-    elif num = 4:
+    elif num == 4:
         line_drawer()
-    elif num = 5:
+    elif num == 5:
         fractal_boi()
-    elif num = 6:
+    elif num == 6:
         circ_frac()
-    elif num = 7:
+    elif num == 7:
         circ_spi()
     else:
         print("Pick a lower number\n")
