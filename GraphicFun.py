@@ -5,9 +5,25 @@ from math import cos, sin, pi, sqrt
 
 def main():
     print("Welcome to Drew's graphical fun house")
-    print("The available methods are:\nextendo_circ()\ncircle_mover()\ncircle_circ()\nline_drawer\nfractal_boi()\ncirc_frac()\ncirc_spi()")
-
-
+    print("The available methods are:\n1: extendo_circ()\n2: circle_mover()\n3: circle_circ()\n4: line_drawer\n5: fractal_boi()\n6: circ_frac()\n7: circ_spi()")
+    num = int(input("Which would you like?"))
+    if num = 1:
+        extendo_circ()
+    elif num = 2:
+        circle_mover()
+    elif num = 3:
+        circle_circ()
+    elif num = 4:
+        line_drawer()
+    elif num = 5:
+        fractal_boi()
+    elif num = 6:
+        circ_frac()
+    elif num = 7:
+        circ_spi()
+    else:
+        print("Pick a lower number\n")
+        
 def extendo_circ():
     win = GraphWin("My Circle", 1280, 800)
     i = 0
